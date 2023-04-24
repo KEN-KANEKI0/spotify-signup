@@ -1,0 +1,238 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    border: radius 8px;
+}
+a{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+ }
+.logo{
+    display: block;
+    align-content: center;
+    margin-top: 33px;
+    margin-left: 685px;
+    margin-right: 7px;
+    float: left;
+    width: 3%;
+    border-radius: 37%;
+}
+.header_container {
+    margin-top: -9px;
+    justify-content: center;
+    align-content: center;
+    overflow: auto;
+}
+.tag{
+    margin-top: 32px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.rm{
+    font-size: xx-small;
+    margin-left: 2px;
+}
+hr{
+    color: grey;
+}
+.line{
+    margin-top: 24px;
+    width: 32%;
+    color: grey;
+    overflow: visible;
+    text-align: center;
+    height: 0px;
+}
+.line:after{
+    border-radius: 24px;
+    background: black;
+    color: white;
+    content: 'OR';
+    padding: 0px 0px;
+    position: relative;
+    top: -9px;
+} 
+.lg_spy{
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    margin-left: 670px;
+    color: white;
+}   
+.fb{ 
+    font-family: 'Poppins', sans-serif;
+    margin-right: 525px;
+    margin-left: 525px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    padding-bottom: 7px;
+    padding-top: 2px;
+    text-align: center;
+    background-color: #3b5998;
+    border-radius: 38px;
+    color: white;
+}
+.fb_lg{
+    font-family: 'Poppins', sans-serif;
+    top: 10px;
+    margin-left: -30px;
+    font-size: 26px;
+    background-color: transparent;
+    color: #3b5998;
+    padding: 1px 5px;
+    padding-top: 0px;
+    border-radius: 45px;
+    position: relative;
+}
+.iphone{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 525px;
+    margin-left: 525px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 24px;
+    background-color:rgb(65, 65, 60);
+    color:white;
+}
+#ap_lg{
+    font-size: 24px;
+}
+.google{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 525px;
+    margin-left: 525px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    padding-bottom: 12px;
+    padding-top: 11px;
+    text-align: center;
+    border-radius: 24px;
+    border-color:grey;
+    color:grey;  
+    background-color: white;  
+}
+.fa-google{
+    color: red;
+}
+
+.Ph_no{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 525px;
+    margin-left: 525px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    padding-bottom: 12px;
+    padding-top: 11px;
+    text-align: center;
+    border-width: 20px;
+    border-radius: 24px;
+    border-color: grey;
+    color:grey;
+    background-color: white;
+}
+.Ph_no:hover ,.google:hover{
+    background-color: grey;
+    color: white;
+}
+i{
+    background-color: transparent;
+    color: white;
+}
+.empt{
+    margin-right: 10px;
+    margin-left: -14px;
+    border-radius: 3px;
+    background-color: white;
+    color: white;
+    position: relative;
+    padding: 0px 11px;
+}
+.lg_form{
+    margin: -7px 810px 22px 527px;
+    color: white;
+}
+/* #lg_form{
+    
+} */
+.form_control{
+    
+    margin: 8px 0px -2px 0px;
+    width: 222%;
+    height: 40px;
+    background-color: rgb(145, 137, 137);
+    font-weight: bold;
+    font-size: large;
+    color: whitesmoke;
+    border: 0px;
+    border-radius: 5px;
+    left: 136px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.form_control:active{
+    border-color: rgb(235, 161, 25);
+}
+.form_control:active{
+    border-color: tomato;
+}
+.fill_form{
+   margin-top: 10px;
+}
+.lk_tg a{
+    background-color: transparent;
+    color: rgb(191, 202, 202);
+    text-decoration: underline;
+    margin-left: 34.3%;
+}
+.lk_tg a:hover{
+    background-color: transparent;
+    text-decoration: underline;
+    color : green;
+}
+.btn{
+    font-size: large;
+    border-radius: 24px;
+    margin-top: 47px;
+    margin-left: 897px;
+    width: 190px;
+    height: 49px;
+    border: none;
+    outline: none;
+    background-color: green;
+}
+/* .checkbox{
+    border-style: 1px solid;
+}
+.checkbox:checked{
+    padding-top: 70px;
+    border-color: green;
+    background-color: green;
+    color: green;
+}
+
+.Rmbr_me{
+    margin-top: -2px;
+} */
+.dt_sv{
+    margin-top: 48px;
+    color: rgb(191, 202, 202);
+    text-align: center;
+    margin-right: 377px;
+}
+/* .ck_bx{
+    background-color: rgb(196, 183, 183);
+    border: 2px solid rgb(16, 133, 16);
+    padding-right: 21px;
+    width: 46px;
+    height: 18px;
+    padding-top: 3px;
+}
+.ck_bx:visited{
+    background-color: yellowgreen;  
+} */
+    
